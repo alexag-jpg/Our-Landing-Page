@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title and Favicon -->
+    <title>Queen's Burger</title>
+    <link rel="icon" type="image/png" href="icon3.png">
+
+    <!-- Fonts and Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Genty:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a href="file:///C:/Users/Admin/OneDrive/Pictures/blend%20and%20trend/home.html" class="btn btn-light">
+            <svg xmlns="file:///C:/Users/Admin/OneDrive/Pictures/blend%20and%20trend/home.html" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 1-.5.5H3.707l4.147 4.146a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708.708L3.707 7.5H14.5a.5.5 0 0 1 .5.5z"/>
+            </svg>
+            Back
+        </a>
+        <a class="navbar-brand" href="#">
+            <img src="icon3.png" alt="Queen's Burger Logo" class="navbar-logo">
+            Queen's Burger
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#infographics">Infographics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container"></div>
+</section>
+
+<!-- Existing Menu Section -->
+<section id="menu" class="menu py-5">
+    <div class="container text-center">
+        <h2 class="mb-3">MENU</h2>
+        <hr class="menu-divider">
+        <div class="d-flex align-items-center justify-content-center">
+           
+            <!-- Menu Container -->
+            <div class="menu-container d-flex flex-wrap justify-content-center" id="menuContainer">
+                <!-- Each set of three menu items is grouped inside a div with class "menu-set" -->
+                <div class="menu-set d-flex flex-wrap justify-content-center">
+                    <!-- Add your first three menu items here -->
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger1.png" class="card-img-top" alt="Classic Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">The Classic Yummy Burger</h5>
+                            <p class="price">₱250.00</p>
+                         <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger2.png" class="card-img-top" alt="Chicken Delight">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Chicken Delight</h5>
+                            <p class="price">₱250.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger3.png" class="card-img-top" alt="Mushroom Swiss Bliss">
+                        <div class="card-body">
+                            <h5 class="card-title">Mushroom Swiss Bliss</h5>
+                            <p class="price">₱250.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-set d-none d-flex flex-wrap justify-content-center">
+                    <!-- Next three items -->
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger4.png" class="card-img-top" alt="BBQ Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Zesty Guacamole Fiesta</h5>
+                            <p class="price">₱250.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger5.png" class="card-img-top" alt="Cheese Lovers">
+                        <div class="card-body">
+                            <h5 class="card-title">Hawaiian Teriyaki Twist</h5>
+                            <p class="price">₱250.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="burger6.png" class="card-img-top" alt="Classic Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Barbeque Pulled Pork Dream</h5>
+                            <p class="price">₱250.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Arrow -->
+            <button id="nextBtn" class="arrow-btn ms-3">&#9654;</button>
+        </div>
+    </div>
+</section>
+
+<!-- New Drinks Section -->
+<section id="drinks" class="menu py-5">
+    <div class="container text-center">
+        <h2 class="mb-3">DRINKS</h2>
+        <hr class="menu-divider">
+        <div class="d-flex align-items-center justify-content-center">
+           
+            <!-- Drinks Container -->
+            <div class="menu-container d-flex flex-wrap justify-content-center" id="drinksContainer">
+                <!-- Each set of three drink items is grouped inside a div with class "menu-set" -->
+                <div class="menu-set d-flex flex-wrap justify-content-center">
+                    <!-- Add your first three drink items here -->
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink1.png" class="card-img-top" alt="Lemonade">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Lemonade from Larrazabal</h5>
+                            <p class="price">₱150.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink2.png" class="card-img-top" alt="Classic Cola">
+                        <div class="card-body">
+                            <h5 class="card-title">Queen's Classic Cola Baby</h5>
+                            <p class="price">₱100.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink3.png" class="card-img-top" alt="Iced Tea">
+                        <div class="card-body">
+                            <h5 class="card-title">Imperial Noble  Iced Tea</h5>
+                            <p class="price">₱120.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-set d-none d-flex flex-wrap justify-content-center">
+                    <!-- Next three drink items -->
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink4.png" class="card-img-top" alt="Smoothie">
+                        <div class="card-body">
+                            <h5 class="card-title">Berry Mindful Berry Smoothie</h5>
+                            <p class="price">₱200.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink5.png" class="card-img-top" alt="Mocha">
+                        <div class="card-body">
+                            <h5 class="card-title">Monarch Iced Mocha</h5>
+                            <p class="price">₱180.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="drink6.png" class="card-img-top" alt="Mint Lemonade">
+                        <div class="card-body">
+                            <h5 class="card-title">Gikapoy nako Sir Mint Lemonade</h5>
+                            <p class="price">₱160.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Arrow for Drinks -->
+            <button id="nextDrinksBtn" class="arrow-btn ms-3">&#9654;</button>
+        </div>
+    </div>
+</section>
+
+<!-- New Fries Section -->
+<section id="fries" class="menu py-5">
+    <div class="container text-center">
+        <h2 class="mb-3">FRIES</h2>
+        <hr class="menu-divider">
+        <div class="d-flex align-items-center justify-content-center">
+           
+            <!-- Fries Container -->
+            <div class="menu-container d-flex flex-wrap justify-content-center" id="friesContainer">
+                <!-- First set of fries items -->
+                <div class="menu-set d-flex flex-wrap justify-content-center">
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries1.jpg" class="card-img-top" alt="Classic Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">The Regal Classic Fries</h5>
+                            <p class="price">₱100.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries2.jpg" class="card-img-top" alt="Cheese Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">Crown Cheese Fries</h5>
+                            <p class="price">₱120.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries3.jpg" class="card-img-top" alt="Spicy Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">Duchess Spicy Fries</h5>
+                            <p class="price">₱110.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second set of fries items -->
+                <div class="menu-set d-none d-flex flex-wrap justify-content-center">
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries4.jpg" class="card-img-top" alt="Garlic Parmesan Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">Very Demure Garlic Parmesan Fries</h5>
+                            <p class="price">₱130.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries5.jpg" class="card-img-top" alt="Truffle Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">The Supreme Truffle Fries</h5>
+                            <p class="price">₱150.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                    <div class="card menu-card mb-3" style="width: 250px;">
+                        <img src="fries6.jpg" class="card-img-top" alt="Sweet Potato Fries">
+                        <div class="card-body">
+                            <h5 class="card-title">Majesty Sweet Potato Fries</h5>
+                            <p class="price">₱140.00</p>
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Arrow for Fries -->
+            <button id="nextFriesBtn" class="arrow-btn ms-3">&#9654;</button>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript to cycle through menu, drinks, and fries sets -->
+<script>
+
+    // Show/Hide Scroll Button on Scroll
+window.addEventListener('scroll', () => {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        scrollToTopBtn.classList.add('show');
+    } else {
+        scrollToTopBtn.classList.remove('show');
+    }
+});
+
+// Scroll-to-top functionality
+document.getElementById('scrollToTopBtn').addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+    // Menu navigation with sliding effect
+const menuSets = document.querySelectorAll('#menuContainer .menu-set');
+let currentMenuSetIndex = 0;
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+    // Apply slide out animation to the current set
+    menuSets[currentMenuSetIndex].style.animationName = 'slideOut';
+    
+    // Once the slide out is complete, hide the current set and show the next one
+    setTimeout(() => {
+        menuSets[currentMenuSetIndex].classList.add('d-none'); // Hide current set
+        
+        // Update index and apply slide in animation
+        currentMenuSetIndex = (currentMenuSetIndex + 1) % menuSets.length;
+        menuSets[currentMenuSetIndex].classList.remove('d-none'); // Show next set
+        menuSets[currentMenuSetIndex].style.animationName = 'slideIn';
+    }, 500); // Match with animation duration
+});
+
+// Repeat the same for drinks and fries sections
+const drinksSets = document.querySelectorAll('#drinksContainer .menu-set');
+let currentDrinksSetIndex = 0;
+
+document.getElementById('nextDrinksBtn').addEventListener('click', () => {
+    drinksSets[currentDrinksSetIndex].style.animationName = 'slideOut';
+    setTimeout(() => {
+        drinksSets[currentDrinksSetIndex].classList.add('d-none');
+        currentDrinksSetIndex = (currentDrinksSetIndex + 1) % drinksSets.length;
+        drinksSets[currentDrinksSetIndex].classList.remove('d-none');
+        drinksSets[currentDrinksSetIndex].style.animationName = 'slideIn';
+    }, 500);
+});
+
+const friesSets = document.querySelectorAll('#friesContainer .menu-set');
+let currentFriesSetIndex = 0;
+
+document.getElementById('nextFriesBtn').addEventListener('click', () => {
+    friesSets[currentFriesSetIndex].style.animationName = 'slideOut';
+    setTimeout(() => {
+        friesSets[currentFriesSetIndex].classList.add('d-none');
+        currentFriesSetIndex = (currentFriesSetIndex + 1) % friesSets.length;
+        friesSets[currentFriesSetIndex].classList.remove('d-none');
+        friesSets[currentFriesSetIndex].style.animationName = 'slideIn';
+    }, 500);
+});
+</script>
+
+ <!-- About Section -->
+<section id="about" class="about py-5">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Queen's Burger is a premium burger joint dedicated to crafting delicious, gourmet burgers using high-quality, fresh ingredients. Our mission is to provide a satisfying and flavorful dining experience, where each bite bursts with taste. From our juicy beef patties to our signature sauces, we take pride in offering a menu that's both creative and comforting, catering to burger lovers of all kinds. Whether you're dining in or taking out, Queen's Burger promises a memorable meal that hits all the right spots.</p>
+    </div>
+</section>
+
+<section id="infographics" class="infographics">
+    <img src="INFOGRAPHICS.jpg" alt=" Queen's Burger infographics" class="infographic-img">
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact py-5">
+    <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>Want to know more about our drinks or visit our shop? Reach out to us today!</p>
+        <p><strong>Email:</strong> queensburger@gmail.com</p>
+        <p><strong>Facebook:</strong> Queen_Burger</p>
+        <p><strong>Instagram:</strong> @queenburger</p>
+        <p><strong>Phone:</strong> 09557452107</p>
+        <p><strong>Address:</strong> P.I. Garcia, Naval</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Queen's Burger | Designed by Maezo Quirante</p>
+        <p><a href="https://youtu.be/dh6xosr8uoI?si=T-Ki4x6p32z0tU-c"target="_blank">VISIT US</a></p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
